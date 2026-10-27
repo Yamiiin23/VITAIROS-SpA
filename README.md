@@ -23,13 +23,11 @@ cl.vitairos.vitairosm
 |---|---|
 | 2.1.1 Interfaz coherente y navegación | `ui/navigation/AppNavigation.kt` (bottom bar + rutas), `ui/theme`, `ui/screens` |
 | 2.1.2 Formularios validados | Login, Registro emocional y Cita: `ValidatedTextField`, `ChoiceChips`, `MoodSelector` (ícono de estado + mensaje por campo) |
-| 2.2.1 Validación desacoplada y estado | `util/validation/Validators.kt` + `*UiState` en ViewModels; test en `ValidatorsTest.kt` |
+| 2.2.1 Validación desacoplada y estado | `util/validation/Validators.kt` + `*UiState` en ViewModels |
 | 2.2.2 Animaciones funcionales | Entrada escalonada (`Appear`), botón con pulsación, chips/selector con `animateColorAsState`, errores con `AnimatedVisibility`, progreso semanal, `animateItem`, transiciones de navegación |
 | 2.3.1 Modularidad y persistencia local | Capas separadas + **Room** (registros y citas) + SharedPreferences (sesión) |
-| 2.3.2 Colaboración y control de versiones | Ver sección Git (hay que hacerlo ustedes dos) |
+| 2.3.2 Colaboración y control de versiones | Colaboración y control de versiones mediante repositorio en GitHub |
 | 2.4.1 Recursos del dispositivo | **Notificaciones** locales (permiso POST_NOTIFICATIONS), **estado de red** (banner sin conexión), **marcador telefónico** (Ayuda), **háptica** al guardar |
 
 ## Pendientes antes de entregar
-- **Logo**: se incluyó el recorte del manual (602 px, `res/drawable-nodpi/logo_vitairos.jpg`). Reemplázalo por el archivo oficial de mejor resolución si lo tienen. No se reescribe ni recolorea.
-- **Ícono de la app**: Android Studio > `New > Image Asset` usando el isotipo.
-- Verifica los números de ayuda de `HelpScreen.kt` (*4141, 600 360 7777, 131) antes de presentar.
+Litas
