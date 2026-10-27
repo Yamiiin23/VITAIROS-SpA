@@ -31,6 +31,5 @@ cl.vitairos.vitairosm
 
 ## Pendientes antes de entregar
 - **Logo**: se incluyó el recorte del manual (602 px, `res/drawable-nodpi/logo_vitairos.jpg`). Reemplázalo por el archivo oficial de mejor resolución si lo tienen. No se reescribe ni recolorea.
-- **Tipografía Outfit**: agrega los .ttf a `res/font` y cambia `BrandFont` en `ui/theme/Theme.kt` (hoy usa la fuente del sistema).
 - **Ícono de la app**: Android Studio > `New > Image Asset` usando el isotipo.
 - Verifica los números de ayuda de `HelpScreen.kt` (*4141, 600 360 7777, 131) antes de presentar.
