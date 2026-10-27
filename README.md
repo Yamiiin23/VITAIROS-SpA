@@ -11,12 +11,11 @@ Prototipo Android en **Kotlin + Jetpack Compose + Material 3** de la experiencia
 ## Arquitectura (modularidad)
 ```
 cl.vitairos.vitairosm
-├── data/        local (Room: entidades, DAO, BD) · repository · session
-├── domain/      model (catálogos) · validation (Validators: reglas centralizadas)
-├── viewmodel/   Auth / Mood / Appointment + factory (estado con StateFlow)
+├── data/        local (Room: entidades, DAO, BD) · repository · session · AppContainer (inyección manual)
+├── model/       catálogos
 ├── ui/          theme (marca) · components · screens · navigation
-├── util/        Notifier · ConnectivityObserver · Formatters
-└── di/          AppContainer (inyección manual)
+├── util/        Notifier · ConnectivityObserver · Formatters · validation (Validators: reglas centralizadas)
+├── viewmodel/   Auth / Mood / Appointment + factory (estado con StateFlow)
 ```
 
 ## Cobertura de la rúbrica
