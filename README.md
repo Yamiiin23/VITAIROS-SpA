@@ -1,7 +1,6 @@
 # VITAIROS-M · App móvil (DSY1105 · Evaluación Parcial 2)
 
 Prototipo Android en **Kotlin + Jetpack Compose + Material 3** de la experiencia móvil de orientación y acompañamiento de VITAIROS-M.
-Usa **solo datos ficticios**. No entrega diagnósticos ni reemplaza la atención profesional.
 
 **Perfil de prueba:** `demo@vitairos.test` / `Demo1234` (botón "Usar perfil ficticio de prueba").
 
@@ -30,13 +29,6 @@ cl.vitairos.vitairosm
 | 2.3.1 Modularidad y persistencia local | Capas separadas + **Room** (registros y citas) + SharedPreferences (sesión) |
 | 2.3.2 Colaboración y control de versiones | Ver sección Git (hay que hacerlo ustedes dos) |
 | 2.4.1 Recursos del dispositivo | **Notificaciones** locales (permiso POST_NOTIFICATIONS), **estado de red** (banner sin conexión), **marcador telefónico** (Ayuda), **háptica** al guardar |
-
-## Git (indicador 2.3.2, 20 %)
-Esto no se puede automatizar: la rúbrica pide participación real de ambos.
-1. Repositorio en GitHub/GitLab, ambos como colaboradores.
-2. `main` protegida; ramas por funcionalidad: `feature/login`, `feature/mood-form`, `feature/agenda`, `feature/help`.
-3. Commits pequeños de **ambos**, con mensajes claros (`feat: validación de correo`), y Pull Requests con revisión cruzada.
-4. Dividir sugerida: A → login, registro emocional, tema/componentes; B → agenda, ayuda, notificaciones, persistencia.
 
 ## Pendientes antes de entregar
 - **Logo**: se incluyó el recorte del manual (602 px, `res/drawable-nodpi/logo_vitairos.jpg`). Reemplázalo por el archivo oficial de mejor resolución si lo tienen. No se reescribe ni recolorea.
