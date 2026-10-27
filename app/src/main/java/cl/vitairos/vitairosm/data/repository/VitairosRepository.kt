@@ -6,7 +6,7 @@ import cl.vitairos.vitairosm.data.local.MoodEntry
 import cl.vitairos.vitairosm.data.local.VitairosDao
 import cl.vitairos.vitairosm.model.Catalog
 
-/** Única fuente de datos de la UI. En una etapa posterior puede combinar Room + API REST. */
+/** Única fuente de datos de la UI. */
 class VitairosRepository(private val dao: VitairosDao) {
     val moods = dao.observeMoods()
     val appointments = dao.observeAppointments()
