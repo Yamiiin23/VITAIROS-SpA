@@ -33,7 +33,6 @@ private val Scheme = lightColorScheme(
     surfaceContainer = SoftSection
 )
 
-/** Outfit es la tipografía de interfaz de la marca. Para usarla, agrega los .ttf a res/font y reemplaza esta línea. */
 private val BrandFont = FontFamily.SansSerif
 private val base = Typography()
 
