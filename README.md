@@ -23,7 +23,7 @@ cl.vitairos.vitairosm
 |---|---|
 | 2.1.1 Interfaz coherente y navegación | `ui/navigation/AppNavigation.kt` (bottom bar + rutas), `ui/theme`, `ui/screens` |
 | 2.1.2 Formularios validados | Login, Registro emocional y Cita: `ValidatedTextField`, `ChoiceChips`, `MoodSelector` (ícono de estado + mensaje por campo) |
-| 2.2.1 Validación desacoplada y estado | `domain/validation/Validators.kt` + `*UiState` en ViewModels; test en `ValidatorsTest.kt` |
+| 2.2.1 Validación desacoplada y estado | `util/validation/Validators.kt` + `*UiState` en ViewModels; test en `ValidatorsTest.kt` |
 | 2.2.2 Animaciones funcionales | Entrada escalonada (`Appear`), botón con pulsación, chips/selector con `animateColorAsState`, errores con `AnimatedVisibility`, progreso semanal, `animateItem`, transiciones de navegación |
 | 2.3.1 Modularidad y persistencia local | Capas separadas + **Room** (registros y citas) + SharedPreferences (sesión) |
 | 2.3.2 Colaboración y control de versiones | Ver sección Git (hay que hacerlo ustedes dos) |
